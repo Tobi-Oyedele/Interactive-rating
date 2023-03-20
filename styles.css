@@ -106,7 +106,7 @@ ul{
     cursor: pointer;
 }
 
-.hidden{
+.container.hidden, .thank-you-container.hidden {
     display: none;
 }
 

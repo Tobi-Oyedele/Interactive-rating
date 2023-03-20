@@ -5,7 +5,7 @@ const submitBtn = document.getElementById("submit-btn");
 const ratingValue = document.getElementById("rating");
 
 submitBtn.addEventListener('click', ()=> {
-    ratingContainer.style.display = "none";
+    ratingContainer.classList.add("hidden");
     thankYouContainer.classList.remove("hidden");
 })
 
